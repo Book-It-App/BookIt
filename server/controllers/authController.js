@@ -548,9 +548,9 @@ const login = async (req, res,next) => {
         if (!isMatch) {
           res.status(400).json({ error: "Invalid Credentials" });
         } else {
-          res.status(200).json({ userLogin, token: token, message: "User logged in successfully" });
-          // res.status(200)
-          // .send(userLogin).json({ message: "user login successfully" })
+           res.status(400).json({ error: "Invalid Credentials" });
+          // res.status(200).json({ userLogin, token: token, message: "User logged in successfully" });
+         
         }
       } else {
         res.status(400).json({ error: "Invalid Credentials" });
