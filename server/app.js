@@ -18,6 +18,11 @@ app.use(express.json());
 
 dotenv.config({path:"./.env"})
 
+
+app.get("/test", (req, res) => {
+  res.send("Hello World");
+});
+
 // app.use((req, res, next) => {
 //   res.header('Access-Control-Allow-Credentials', true);
 //   next();
