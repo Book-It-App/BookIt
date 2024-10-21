@@ -226,12 +226,12 @@ const Events = () => {
                         {event.department} - {DepartmentList[event.department]}
                       </p>
                     </div>
-                    // <div className="flex flex-col justify-center rounded-2xl bg-white bg-clip-border px-3 py-4 shadow-3xl shadow-shadow-500 dark:!bg-navy-700 dark:shadow-none">
-                    //   <p className="ext-m font-bold text-gray-600">Phone</p>
-                    //   <p className="text-base font-medium text-navy-700 ">
-                    //     {event.phoneNumber}
-                    //   </p>
-                    // </div>
+                   {/*   <div className="flex flex-col justify-center rounded-2xl bg-white bg-clip-border px-3 py-4 shadow-3xl shadow-shadow-500 dark:!bg-navy-700 dark:shadow-none">
+                       <p className="ext-m font-bold text-gray-600">Phone</p>
+                       <p className="text-base font-medium text-navy-700 ">
+                         {event.phoneNumber}
+                       </p>
+                     </div>*/}
                   </div>
                 </div>
               </div>
